@@ -50,13 +50,13 @@ function fill(data) {
 
 }
 function initMap() {
-        const uluru = { lat: 44.3894, lng: -79.6903 };
+        const barrie = { lat: 44.3894, lng: -79.6903 };
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 4,
-          center: uluru,
+          center: barrie,
         });
         const marker = new google.maps.Marker({
-          position: uluru,
+          position: barrie,
           map: map,
         });
       }
